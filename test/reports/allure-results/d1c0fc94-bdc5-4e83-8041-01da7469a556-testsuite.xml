@@ -1,0 +1,200 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1540984669707' stop='1540984684608'>
+    <name>Performing a login Performing login operation with passing test data as data table</name>
+    <title>Performing a login Performing login operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1540984669713' status='passed' stop='1540984679091'>
+            <name>I am on the phptravels page</name>
+            <title>I am on the phptravels page</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Tejaswi\\Desktop\\Cucumber2\\webdriverIO-with-cucumberBDD\\test\\features\\ta-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1540984669722' status='passed' stop='1540984678077'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/url</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/url</title>
+                    <attachments>
+                        <attachment title='Request' source='cd86ce0f-c32d-45d7-b92f-5cd2f21b12cf-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='c4c22571-9524-4353-9b0a-340cb4ee29e1-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1540984679094' status='broken' stop='1540984684602'>
+            <name>I login with username and password "user@phptravels.com" "demouser" into the text box</name>
+            <title>I login with username and password "user@phptravels.com" "demouser" into the text box</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Tejaswi\\Desktop\\Cucumber2\\webdriverIO-with-cucumberBDD\\test\\features\\ta-login.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1540984679098' status='passed' stop='1540984679256'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/element</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fd451c71-b9bb-451b-8023-218a008e0b16-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='66a48763-3efa-4796-ba2f-2be01acc8fca-attachment.json' type='application/json' size='681'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984679265' status='passed' stop='1540984679304'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='e9228709-e08b-4f82-bd5c-27f3b4647f03-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='3156dece-9fed-44cf-956e-46a6fedf95f5-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984679307' status='passed' stop='1540984679329'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/element</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8242cb1e-b7c2-4d5b-8b8e-96d730014f42-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='a2e6c823-e477-48df-b3be-51601680f275-attachment.json' type='application/json' size='681'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984679336' status='passed' stop='1540984679354'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1cf5c098-483b-49c1-9425-531c35403ad9-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='bb30bbe6-4d07-4441-9416-e040486bedf8-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984679837' status='passed' stop='1540984679856'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='5ee0ef7e-dd4e-4472-be68-1e589bc6ee8a-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='9a57a660-bd3a-4fa7-b90f-935a6488c786-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984680337' status='passed' stop='1540984680383'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='6a85243f-d791-48f0-9c53-f65ffa30c307-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='b07923ee-911d-4b61-8bd6-aca3e3e0184a-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984680837' status='passed' stop='1540984680853'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c1c6eaa9-062a-49df-a4a3-74818fe1d262-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='506f1653-69bf-4c43-affa-6cb995f510ff-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984681337' status='passed' stop='1540984681353'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='674a671d-4380-4864-9d01-3d3ff090b3c7-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='5899907e-786c-4521-84df-3620b2d272ab-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984681837' status='passed' stop='1540984681886'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c0a56a5a-cf66-429b-8deb-31e578dee8af-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='a059423f-43fd-4865-ab19-af71258bc7be-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984682338' status='passed' stop='1540984682357'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='51e12a80-b5f8-41a3-9d29-684d8a2e647c-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='a651c465-0232-4c91-b5bf-dc6c05a4c014-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984682837' status='passed' stop='1540984682853'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3c40f3b4-6361-4297-8a69-97903d65ac14-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='2d3c2223-daa9-497f-988e-78b0621d93ca-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984683338' status='passed' stop='1540984683354'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2dfc2a44-d2ea-4884-8f6e-d99dfc702cac-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='5bff2f1d-bd80-48eb-a5c2-0f2ae5d11465-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984683837' status='passed' stop='1540984683852'>
+                    <name>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</name>
+                    <title>POST /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a2ae31cb-ade2-4585-ade8-03bce74df4c6-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='57880fff-ecc3-4fdf-a88b-043d4eecc981-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1540984684340' status='broken' stop='1540984684602'>
+                    <name>GET /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/screenshot</name>
+                    <title>GET /wd/hub/session/80f2362946152f86fe334d3149b5a3f3/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d1c8c611-8631-4e39-96eb-7e2d88970a71-attachment.png' type='image/png' size='31829'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element ("//*[@class="foot-brand center-block img-responsive"]") still not visible after 5000ms</message>
+                <stack-trace>Error: element ("//*[@class="foot-brand center-block img-responsive"]") still not visible after 5000ms
+                    at elements("//*[@class="foot-brand center-block img-responsive"]") - C:\Users\Tejaswi\Desktop\Cucumber2\webdriverIO-with-cucumberBDD\node_modules\webdriverio\build\lib\commands\isVisible.js:54:17
+                    at isVisible("//*[@class="foot-brand center-block img-responsive"]") - C:\Users\Tejaswi\Desktop\Cucumber2\webdriverIO-with-cucumberBDD\node_modules\webdriverio\build\lib\commands\waitForVisible.js:73:22</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1540984684603' status='pending' stop='1540984684604'>
+            <name>I should see the message "Hi, Johny Smith" on my account page</name>
+            <title>I should see the message "Hi, Johny Smith" on my account page</title>
+            <labels>
+                <label name='feature' value='Performing a login'/>
+                <label name='story' value='Performing login operation with passing test data as data table'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Tejaswi\\Desktop\\Cucumber2\\webdriverIO-with-cucumberBDD\\test\\features\\ta-login.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

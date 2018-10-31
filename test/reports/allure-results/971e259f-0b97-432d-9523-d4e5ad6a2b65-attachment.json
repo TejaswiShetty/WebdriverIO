@@ -1,0 +1,9 @@
+{
+    "message": "chrome not reachable",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "SelectorTimeoutError",
+        "message": "Request timed out after the element was still found on the page.",
+        "orgStatusMessage": "chrome not reachable\n  (Session info: chrome=70.0.3538.77)\n  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64)"
+    }
+}

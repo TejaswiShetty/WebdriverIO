@@ -1,0 +1,4 @@
+{
+    "using": "xpath",
+    "value": "//*[@class=\"center-block wow fadeIn center-block animated\"]"
+}
